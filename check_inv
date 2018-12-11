@@ -1,0 +1,11 @@
+function Ainv = check_inv(A)
+  [m, n] = size(A);
+  if m ~= n
+    disp('Matrix is not square');
+    break
+  elseif det(A) == 0
+    disp('Matrix is singular');
+    break
+  else 
+    Ainv = inv(A)
+  end
