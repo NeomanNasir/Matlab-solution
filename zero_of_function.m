@@ -1,0 +1,1 @@
+fzero(inline('exp(-x) - sin(x)'),0.5)
