@@ -1,0 +1,1 @@
+ezsurf(sin(x)*sin(y), [-3*pi 3*pi -3*pi 3*pi])
