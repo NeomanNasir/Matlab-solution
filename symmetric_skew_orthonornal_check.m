@@ -13,6 +13,6 @@ if -A == AT
 end
 
 if A*AT == eye(3)
-  fprintf('A is a orthogonal matrix.\n');
+  fprintf('A is a orthonornal matrix.\n');
 end 
 
